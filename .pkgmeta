@@ -1,0 +1,6 @@
+package-as: AckisRecipeList_Leatherworking
+
+enable-nolib-creation: yes
+
+required-dependencies:
+    - arl
