@@ -5077,7 +5077,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Stamina -- 85007
 	recipe = AddRecipe(85007, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(500, 500, 505, 505, 505)
 	recipe:SetPreviousRankID(57690)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5085,7 +5085,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Agility -- 85008
 	recipe = AddRecipe(85008, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(500, 500, 505, 505, 505)
 	recipe:SetPreviousRankID(57683)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5093,7 +5093,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Strength -- 85009
 	recipe = AddRecipe(85009, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(500, 500, 505, 505, 505)
 	recipe:SetPreviousRankID(124549)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5101,7 +5101,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Intellect -- 85010
 	recipe = AddRecipe(85010, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(500, 500, 505, 505, 505)
 	recipe:SetPreviousRankID(57691)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5354,7 +5354,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Agility -- 124551
 	recipe = AddRecipe(124551, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(575, 575, 575, 575, 575)
 	recipe:SetPreviousRankID(85008)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5362,7 +5362,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Intellect -- 124552
 	recipe = AddRecipe(124552, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(575, 575, 575, 575, 575)
 	recipe:SetPreviousRankID(85010)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5370,7 +5370,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Stamina -- 124553
 	recipe = AddRecipe(124553, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(575, 575, 575, 575, 575)
 	recipe:SetPreviousRankID(85007)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5378,7 +5378,7 @@ function module:InitializeRecipes()
 
 	-- Fur Lining - Strength -- 124554
 	recipe = AddRecipe(124554, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(575, 575, 575, 575, 575)
 	recipe:SetPreviousRankID(85009)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5386,7 +5386,7 @@ function module:InitializeRecipes()
 
 	-- Primal Leg Reinforcements -- 124559
 	recipe = AddRecipe(124559, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(575, 575, 575, 575, 575)
 	recipe:SetPreviousRankID(124564)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5394,7 +5394,7 @@ function module:InitializeRecipes()
 
 	-- Draconic Leg Reinforcements -- 124561
 	recipe = AddRecipe(124561, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(575, 575, 575, 575, 575)
 	recipe:SetPreviousRankID(124566)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5402,7 +5402,7 @@ function module:InitializeRecipes()
 
 	-- Heavy Leg Reinforcements -- 124563
 	recipe = AddRecipe(124563, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(575, 575, 575, 575, 575)
 	recipe:SetPreviousRankID(124565)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5410,7 +5410,7 @@ function module:InitializeRecipes()
 
 	-- Primal Leg Reinforcements -- 124564
 	recipe = AddRecipe(124564, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(500, 500, 500, 500, 500)
 	recipe:SetPreviousRankID(124567)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5418,7 +5418,7 @@ function module:InitializeRecipes()
 
 	-- Heavy Leg Reinforcements -- 124565
 	recipe = AddRecipe(124565, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(500, 500, 500, 500, 500)
 	recipe:SetPreviousRankID(124568)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
@@ -5426,7 +5426,7 @@ function module:InitializeRecipes()
 
 	-- Draconic Leg Reinforcements -- 124566
 	recipe = AddRecipe(124566, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
+	recipe:SetSkillLevels(500, 500, 500, 500, 500)
 	recipe:SetPreviousRankID(124569)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
