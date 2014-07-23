@@ -3475,27 +3475,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.TANK)
 	recipe:AddTrainer(3007, 3069, 3365, 4212, 5127, 5564, 17442, 21087, 26911, 26961, 26996, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
 
-	-- Fur Lining - Agility -- 57683
-	recipe = AddRecipe(57683, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 425, 430, 435)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
-	recipe:AddTrainer(3007, 3069, 3365, 4212, 5127, 5564, 17442, 21087, 26911, 26961, 26996, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Stamina -- 57690
-	recipe = AddRecipe(57690, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 425, 430, 435)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 4212, 5127, 5564, 17442, 21087, 26911, 26961, 26996, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Intellect -- 57691
-	recipe = AddRecipe(57691, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 425, 430, 435)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-	recipe:AddTrainer(3007, 3069, 3365, 4212, 5127, 5564, 17442, 21087, 26911, 26961, 26996, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
 	-- Frostscale Bracers -- 60599
 	recipe = AddRecipe(60599, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 400, 410, 420)
@@ -5075,38 +5054,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
 
-	-- Fur Lining - Stamina -- 85007
-	recipe = AddRecipe(85007, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 505, 505, 505)
-	recipe:SetPreviousRankID(57690)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Agility -- 85008
-	recipe = AddRecipe(85008, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 505, 505, 505)
-	recipe:SetPreviousRankID(57683)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Strength -- 85009
-	recipe = AddRecipe(85009, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 505, 505, 505)
-	recipe:SetPreviousRankID(124549)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Intellect -- 85010
-	recipe = AddRecipe(85010, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 505, 505, 505)
-	recipe:SetPreviousRankID(57691)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
 	-- Dragonfire Gloves -- 99443
 	recipe = AddRecipe(99443, V.CATA, Q.EPIC)
 	recipe:SetSkillLevels(525, 525, 525, 527, 530)
@@ -5344,45 +5291,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.GOLDENLOTUS)
 	recipe:AddRepVendor(FAC.GOLDENLOTUS, REP.HONORED, 59908)
-
-	-- Fur Lining - Strength -- 124549
-	recipe = AddRecipe(124549, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Agility -- 124551
-	recipe = AddRecipe(124551, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(575, 575, 575, 575, 575)
-	recipe:SetPreviousRankID(85008)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26998, 28700, 29507, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Intellect -- 124552
-	recipe = AddRecipe(124552, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(575, 575, 575, 575, 575)
-	recipe:SetPreviousRankID(85010)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26998, 28700, 29507, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Stamina -- 124553
-	recipe = AddRecipe(124553, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(575, 575, 575, 575, 575)
-	recipe:SetPreviousRankID(85007)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26998, 28700, 29507, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
-
-	-- Fur Lining - Strength -- 124554
-	recipe = AddRecipe(124554, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(575, 575, 575, 575, 575)
-	recipe:SetPreviousRankID(85009)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 17442, 21087, 26998, 28700, 29507, 29509, 33581, 33612, 33635, 53436, 65121, 66354)
 
 	-- Primal Leg Reinforcements -- 124559
 	recipe = AddRecipe(124559, V.MOP, Q.COMMON)
