@@ -2480,6 +2480,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_CREATED_ITEM")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.NAGRAND)
 	recipe:AddRepVendor(FAC.KURENAI, REP.HONORED, 20240)
+	recipe:AddRepVendor(FAC.MAGHAR, REP.HONORED, 20241)
 
 	-- Drums of War -- 35540
 	recipe = AddRecipe(35540, V.TBC, Q.COMMON)
@@ -2506,6 +2507,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_CREATED_ITEM")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.INSTANCE, F.NAGRAND)
 	recipe:AddRepVendor(FAC.KURENAI, REP.HONORED, 20240)
+	recipe:AddRepVendor(FAC.MAGHAR, REP.HONORED, 20241)
 
 	-- Cobrahide Leg Armor -- 35549
 	recipe = AddRecipe(35549, V.TBC, Q.COMMON)
