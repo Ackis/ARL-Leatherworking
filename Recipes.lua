@@ -2323,7 +2323,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.NAGRAND)
 	recipe:AddRepVendor(FAC.KURENAI, REP.FRIENDLY, 20240)
-	recipe:AddRepVendor(FAC.MAGHAR, REP.HONORED, 20241)
+	recipe:AddRepVendor(FAC.MAGHAR, REP.FRIENDLY, 20241)
 
 	-- Netherfury Leggings -- 32502
 	recipe = AddRecipe(32502, V.TBC, Q.RARE)
@@ -2343,7 +2343,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_FEET")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.NAGRAND)
 	recipe:AddRepVendor(FAC.KURENAI, REP.REVERED, 20240)
-	recipe:AddRepVendor(FAC.MAGHAR, REP.HONORED, 20241)
+	recipe:AddRepVendor(FAC.MAGHAR, REP.REVERED, 20241)
 
 	-- Enchanted Felscale Leggings -- 35525
 	recipe = AddRecipe(35525, V.TBC, Q.COMMON)
