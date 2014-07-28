@@ -7338,68 +7338,81 @@ function module:InitializeRecipes()
 	-------------------------------------------------------------------------------
 	-- Blackened Dragonscale -- 163216
 	recipe = AddRecipe(163216, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(425, 425, 435, 440, 445)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Deepsea Scale -- 163218
 	recipe = AddRecipe(163218, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(425, 425, 435, 440, 445)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Prismatic Scale -- 163220
 	recipe = AddRecipe(163220, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(500, 500, 510, 515, 520)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Icy Dragonscale -- 163222
 	recipe = AddRecipe(163222, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Nerubian Chitin -- 163223
 	recipe = AddRecipe(163223, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Jormungar Scale -- 163224
 	recipe = AddRecipe(163224, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Thick Clefthoof Leather -- 163225
 	recipe = AddRecipe(163225, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Crystal Infused Leather -- 163226
 	recipe = AddRecipe(163226, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Fel Scales -- 163228
 	recipe = AddRecipe(163228, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Fel Hide -- 163229
 	recipe = AddRecipe(163229, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Nether Dragonscales -- 163230
 	recipe = AddRecipe(163230, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Cobra Scales -- 163231
 	recipe = AddRecipe(163231, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Wind Scales -- 163232
 	recipe = AddRecipe(163232, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddTrainer(85920)
 
 	-- Journeying Helm -- 171260
 	recipe = AddRecipe(171260, V.WOD, Q.COMMON)
@@ -7453,6 +7466,26 @@ function module:InitializeRecipes()
 
 	-- Wayfaring Shoulderguards -- 171278
 	recipe = AddRecipe(171278, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Wayfaring Helm -- 171279
+	recipe = AddRecipe(171279, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Wayfaring Leggings -- 171280
+	recipe = AddRecipe(171280, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Wayfaring Bracers -- 171283
+	recipe = AddRecipe(171283, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Wayfaring Boots -- 171284
+	recipe = AddRecipe(171284, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
