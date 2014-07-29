@@ -7464,6 +7464,21 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
+	-- Supple Shoulderguards -- 171270
+	recipe = AddRecipe(171270, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Supple Helm -- 171271
+	recipe = AddRecipe(171271, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Supple Waistguard -- 171277
+	recipe = AddRecipe(171277, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
 	-- Wayfaring Shoulderguards -- 171278
 	recipe = AddRecipe(171278, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
