@@ -7442,18 +7442,30 @@ function module:InitializeRecipes()
 
 	-- Journeying Helm -- 171260
 	recipe = AddRecipe(171260, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(116319, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(116164, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("LEATHERWORKING_HEAD")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID, F.ROGUE)
+	recipe:AddVendor(77383)
 
 	-- Journeying Robes -- 171261
 	recipe = AddRecipe(171261, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(116320, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(116165, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID, F.ROGUE)
+	recipe:AddVendor(77383)
 
 	-- Journeying Slacks -- 171262
 	recipe = AddRecipe(171262, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(116321, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(116166, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID, F.ROGUE)
+	recipe:AddVendor(77383)
 
 	-- Traveling Helm -- 171263
 	recipe = AddRecipe(171263, V.WOD, Q.COMMON)
@@ -7500,6 +7512,31 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
+	-- Supple Leggings -- 171272
+	recipe = AddRecipe(171272, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Supple Gloves -- 171273
+	recipe = AddRecipe(171273, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Supple Vest -- 171274
+	recipe = AddRecipe(171274, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Supple Bracers -- 171275
+	recipe = AddRecipe(171275, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Supple Boots -- 171276
+	recipe = AddRecipe(171276, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
 	-- Supple Waistguard -- 171277
 	recipe = AddRecipe(171277, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
@@ -7520,6 +7557,16 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
+	-- Wayfaring Gloves -- 171281
+	recipe = AddRecipe(171281, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Wayfaring Tunic -- 171282
+	recipe = AddRecipe(171282, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
 	-- Wayfaring Bracers -- 171283
 	recipe = AddRecipe(171283, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
@@ -7530,10 +7577,18 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
-	-- Burnished Leather -- 171391
-	recipe = AddRecipe(171391, V.WOD, Q.COMMON)
+	-- Wayfaring Belt -- 171285
+	recipe = AddRecipe(171285, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Burnished Leather -- 171391
+	recipe = AddRecipe(171391, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(600, 600, 600, 800, 1000)
+	recipe:SetCraftedItem(110611, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	self.InitializeRecipes = nil
 end
