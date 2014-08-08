@@ -54,6 +54,7 @@ function module:InitializeVendors()
 	AddVendor(50381,	L["Misty Merriweather"],		Z.TWILIGHT_HIGHLANDS,		78.8,	76.2,	"Alliance")
 	AddVendor(64054,	L["Krogo Darkhide"],			Z.SHRINE_OF_TWO_MOONS,		31.2,	47.0,	"Horde")
 	AddVendor(64094,	L["Tanner Pang"],			Z.SHRINE_OF_SEVEN_STARS,	76.8, 	49.0,	"Alliance")
+	AddVendor(77383,	L["Anders Longstitch"],			Z.LUNARFALL,			 0.0,	 0.0,	"Alliance") -- Alliance Garrison
 
 	self.InitializeVendors = nil
 end
