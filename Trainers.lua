@@ -61,6 +61,7 @@ function module:InitializeTrainers()
 	addon:AddTrainer(65121, "Clean Pelt", Z.KUN_LAI_SUMMIT, 64.6, 60.9, "Neutral")
 	addon:AddTrainer(66354, "Master Cannon", Z.KUN_LAI_SUMMIT, 50.6, 42.0, "Neutral")
 	addon:AddTrainer(85920, "Jistun Sharpfeather", Z.STORMSHIELD, 52.5, 42.1, "Alliance")
+	addon:AddTrainer(86032, "Burga Stronghide", Z.WARSPEAR, 50.2, 28.8, "Horde")
 
 	self.InitializeTrainers = nil
 end
