@@ -7622,7 +7622,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122547, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(122537, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(91024, 91033)
+	recipe:Retire()
 
 	-- Spiritual Leathercraft -- 182121
 	recipe = AddRecipe(182121, V.WOD, Q.COMMON)
@@ -7630,6 +7630,22 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122715, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(110611, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
+	recipe:AddVendor(91024, 91033)
+
+	-- Mighty Burnished Essence -- 187489
+	recipe = AddRecipe(187489, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127722, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127712, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(91024, 91033)
+
+	-- Savage Burnished Essence -- 187513
+	recipe = AddRecipe(187513, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127740, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127730, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(91024, 91033)
 
 	self.InitializeRecipes = nil
