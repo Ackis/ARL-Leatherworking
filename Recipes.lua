@@ -36,13 +36,13 @@ module.Recipes = {}
 function module:InitializeRecipes()
 	local function AddRecipe(spellID, expansionID, quality)
 		return addon:AddRecipe(module, {
-			acquire_data = {},
-			flags = {},
-			genesis = constants.GAME_VERSION_NAMES[expansionID],
-			name = _G.GetSpellInfo(spellID),
-			profession = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.LEATHERWORKING),
-			quality = quality,
-			_spell_id = spellID,
+			_acquireTypeData = {},
+			_bitflags = {},
+			_expansionID = expansionID,
+			_localizedProfessionName = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.LEATHERWORKING),
+			_localizedName = _G.GetSpellInfo(spellID),
+			_qualityID = quality,
+			_spellID = spellID,
 		})
 	end
 
@@ -5187,7 +5187,7 @@ function module:InitializeRecipes()
 	-- Primal Leg Reinforcements -- 124559
 	recipe = AddRecipe(124559, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetPreviousRankID(124564)
+	recipe:SetPreviousRankSpellID(124564)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -5195,7 +5195,7 @@ function module:InitializeRecipes()
 	-- Draconic Leg Reinforcements -- 124561
 	recipe = AddRecipe(124561, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetPreviousRankID(124566)
+	recipe:SetPreviousRankSpellID(124566)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -5203,7 +5203,7 @@ function module:InitializeRecipes()
 	-- Heavy Leg Reinforcements -- 124563
 	recipe = AddRecipe(124563, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetPreviousRankID(124565)
+	recipe:SetPreviousRankSpellID(124565)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.TANK)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -5211,7 +5211,7 @@ function module:InitializeRecipes()
 	-- Primal Leg Reinforcements -- 124564
 	recipe = AddRecipe(124564, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetPreviousRankID(124567)
+	recipe:SetPreviousRankSpellID(124567)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -5219,7 +5219,7 @@ function module:InitializeRecipes()
 	-- Heavy Leg Reinforcements -- 124565
 	recipe = AddRecipe(124565, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetPreviousRankID(124568)
+	recipe:SetPreviousRankSpellID(124568)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.TANK)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -5227,7 +5227,7 @@ function module:InitializeRecipes()
 	-- Draconic Leg Reinforcements -- 124566
 	recipe = AddRecipe(124566, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetPreviousRankID(124569)
+	recipe:SetPreviousRankSpellID(124569)
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
