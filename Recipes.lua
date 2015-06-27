@@ -7525,17 +7525,16 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(171286, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 700, 701)
 	recipe:SetRecipeItem(116345, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(116203, "BIND_ON_EQUIP")
+	recipe:SetCraftedItem(128014, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77383, 79834, 87057, 87549)
 
 	-- Greater Burnished Essence -- 171287
 	recipe = AddRecipe(171287, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 700, 701)
-	recipe:SetRecipeItem(116346, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(116204, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(77383, 79834, 87057, 87549)
+	recipe:Retire()
 
 	-- Burnished Leather Bag -- 171288
 	recipe = AddRecipe(171288, V.WOD, Q.COMMON)
@@ -7595,7 +7594,6 @@ function module:InitializeRecipes()
 	-- Powerful Burnished Essence -- 181415
 	recipe = AddRecipe(181415, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetRecipeItem(122547, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(122537, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:Retire()
