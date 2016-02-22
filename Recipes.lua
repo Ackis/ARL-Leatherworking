@@ -1122,7 +1122,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(15047, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddMobDrop(10363)
+	recipe:Retire()
 
 	-- Runic Leather Gauntlets -- 19055
 	recipe = AddRecipe(19055, V.ORIG, Q.COMMON)
@@ -1474,7 +1474,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(15081, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
 	recipe:AddFilters(F.DPS)
-	recipe:AddMobDrop(10318)
+	recipe:Retire()
 
 	-- Volcanic Shoulders -- 19101
 	recipe = AddRecipe(19101, V.ORIG, Q.UNCOMMON)
