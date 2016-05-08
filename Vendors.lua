@@ -59,7 +59,7 @@ function module:InitializeVendors()
 	AddVendor(16689,	L["Zaralda"],				Z.SILVERMOON_CITY,		84.8,	78.6,	"Horde")
 	AddVendor(16748,	L["Haferet"],				Z.THE_EXODAR,			66.6,	73.7,	"Alliance")
 	AddVendor(18672,	L["Thomas Yance"],			Z.OLD_HILLSBRAD_FOOTHILLS,	0,	0,	"Neutral")
-	AddVendor(32515,	L["Braeg Stoutbeard"],			Z.DALARAN,			37.6,	29.5,	"Neutral")
+	AddVendor(32515,	L["Braeg Stoutbeard"],			Z.DALARAN_NORTHREND,		37.6,	29.5,	"Neutral")
 	AddVendor(34601,	L["Harlown Darkweave"],			Z.ASHENVALE,			18.2,	60.0,	"Alliance")
 	AddVendor(40226,	L["Pratt McGrubben"],			Z.FERALAS,			45.4,	41.2,	"Alliance")
 	AddVendor(50172,	L["Threm Blackscalp"],			Z.TWILIGHT_HIGHLANDS,		75.2,	50.1,	"Horde")
@@ -72,6 +72,7 @@ function module:InitializeVendors()
 	AddVendor(87549,	L["Garm Gladestride"],			Z.WARSPEAR,			50.6,	27.8,	"Horde") -- Horde Ashran
 	AddVendor(91024,	L["Jake the Fox"],			Z.LUNARFALL,			34.6,	33.0,	"Alliance") -- Alliance Garrison
 	AddVendor(91033,	L["Zeezu"],				Z.FROSTWALL,			40.8,	54.8,	"Horde") -- Horde Garrison
+	AddVendor(93521,	L["Ranid Glowergold"],			Z.DALARAN_BROKENISLES,		34.4,	28.4,	"Neutral")
 
 	self.InitializeVendors = nil
 end
