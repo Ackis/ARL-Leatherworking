@@ -5205,48 +5205,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.TANK)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
 
-	-- Primal Leg Reinforcements -- 124564
-	recipe = AddRecipe(124564, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
-
-	-- Heavy Leg Reinforcements -- 124565
-	recipe = AddRecipe(124565, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.TANK)
-	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
-
-	-- Draconic Leg Reinforcements -- 124566
-	recipe = AddRecipe(124566, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 410, 415, 420)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
-
-	-- Primal Leg Reinforcements -- 124567
-	recipe = AddRecipe(124567, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 400, 400, 400)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032)
-
-	-- Heavy Leg Reinforcements -- 124568
-	recipe = AddRecipe(124568, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 400, 400, 400)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.TANK)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032)
-
-	-- Draconic Leg Reinforcements -- 124569
-	recipe = AddRecipe(124569, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 400, 400, 400)
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032)
-
 	-- Misthide Helm -- 124571
 	recipe = AddRecipe(124571, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(555, 555, 570, 585, 600)
@@ -7523,13 +7481,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77383, 79834, 87057, 87549)
 
-	-- Greater Burnished Essence -- 171287
-	recipe = AddRecipe(171287, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 700, 701)
-	recipe:SetCraftedItem(116204, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:Retire()
-
 	-- Burnished Leather Bag -- 171288
 	recipe = AddRecipe(171288, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 700, 700)
@@ -7584,13 +7535,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_CREATED_ITEM")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddVendor(77383, 79834, 87057, 87549)
-
-	-- Powerful Burnished Essence -- 181415
-	recipe = AddRecipe(181415, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetCraftedItem(122537, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
-	recipe:Retire()
 
 	-- Spiritual Leathercraft -- 182121
 	recipe = AddRecipe(182121, V.WOD, Q.COMMON)
