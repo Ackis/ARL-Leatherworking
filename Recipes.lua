@@ -7559,5 +7559,700 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(91024, 91033)
 
+	-------------------------------------------------------------------------------
+	-- Legion.
+	-------------------------------------------------------------------------------
+	-- Warhide Bindings -- 194695
+	recipe = AddRecipe(194695, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128883, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
+	recipe:AddQuest(40186)
+
+	-- Warhide Belt -- 194696
+	recipe = AddRecipe(194696, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128882, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
+	recipe:AddQuest(40179)
+
+	-- Warhide Shoulderguard -- 194697
+	recipe = AddRecipe(194697, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128881, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddQuest(40185)
+
+	-- Warhide Pants -- 194698
+	recipe = AddRecipe(194698, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128880, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
+	recipe:AddQuest(40179)
+
+	-- Warhide Mask -- 194699
+	recipe = AddRecipe(194699, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128879, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HEAD")
+	recipe:AddQuest(40183)
+
+	-- Warhide Gloves -- 194700
+	recipe = AddRecipe(194700, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128878, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
+	recipe:AddQuest(40186)
+
+	-- Warhide Footpads -- 194701
+	recipe = AddRecipe(194701, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128877, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_FEET")
+	recipe:AddQuest(40176)
+
+	-- Warhide Jerkin -- 194702
+	recipe = AddRecipe(194702, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(128876, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
+	recipe:AddQuest(40178)
+
+	-- Warhide Bindings -- 194703
+	recipe = AddRecipe(194703, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128883, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
+	recipe:AddQuest(40192)
+
+	-- Warhide Belt -- 194704
+	recipe = AddRecipe(194704, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128882, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
+	recipe:AddQuest(40192)
+
+	-- Warhide Shoulderguard -- 194705
+	recipe = AddRecipe(194705, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128881, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddQuest(40198)
+
+	-- Warhide Pants -- 194706
+	recipe = AddRecipe(194706, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128880, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
+	recipe:AddQuest(40205)
+
+	-- Warhide Mask -- 194707
+	recipe = AddRecipe(194707, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128879, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HEAD")
+	recipe:AddQuest(40203)
+
+	-- Warhide Gloves -- 194708
+	recipe = AddRecipe(194708, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128878, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
+	recipe:AddQuest(40204)
+
+	-- Warhide Footpads -- 194709
+	recipe = AddRecipe(194709, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128877, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_FEET")
+	recipe:AddQuest(40198)
+
+	-- Warhide Jerkin -- 194710
+	recipe = AddRecipe(194710, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128876, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
+	recipe:AddQuest(40191)
+
+	-- Warhide Bindings -- 194711
+	recipe = AddRecipe(194711, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128883, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
+	recipe:AddFilters(F.INSTANCE)
+	recipe:AddMobDrop(101403)
+
+	-- Warhide Pants -- 194712
+	recipe = AddRecipe(194712, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128880, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.INSTANCE)
+	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
+	recipe:AddMobDrop(96028)
+
+	-- Warhide Mask -- 194713
+	recipe = AddRecipe(194713, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128879, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HEAD")
+	recipe:AddQuest(41640)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Warhide Gloves -- 194714
+	recipe = AddRecipe(194714, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128878, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
+	recipe:AddQuest(41644)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Warhide Footpads -- 194715
+	recipe = AddRecipe(194715, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128877, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_FEET")
+	recipe:AddQuest(41642)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Warhide Belt -- 194716
+	recipe = AddRecipe(194716, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128882, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
+	recipe:AddVendor(107760)
+
+	-- Warhide Shoulderguard -- 194717
+	recipe = AddRecipe(194717, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128881, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddWorldDrop(Z.VIOLET_HOLD)
+
+	-- Warhide Jerkin -- 194718
+	recipe = AddRecipe(194718, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128876, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
+	recipe:AddRepVendor(FAC.DREAMWEAVERS, REP.HONORED, 106901)
+
+	-- Dreadleather Bindings -- 194719
+	recipe = AddRecipe(194719, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128891, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
+	recipe:AddVendor(93521)
+
+	-- Dreadleather Belt -- 194720
+	recipe = AddRecipe(194720, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128890, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
+	recipe:AddVendor(107760)
+
+	-- Dreadleather Shoulderguard -- 194721
+	recipe = AddRecipe(194721, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128889, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddVendor(93521)
+
+	-- Dreadleather Pants -- 194722
+	recipe = AddRecipe(194722, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128888, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
+	recipe:AddVendor(93521)
+
+	-- Dreadleather Mask -- 194723
+	recipe = AddRecipe(194723, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128887, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HEAD")
+	recipe:AddVendor(93521)
+
+	-- Dreadleather Gloves -- 194724
+	recipe = AddRecipe(194724, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128886, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
+	recipe:AddVendor(93521)
+
+	-- Dreadleather Footpads -- 194725
+	recipe = AddRecipe(194725, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128885, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_FEET")
+	recipe:AddVendor(93521)
+
+	-- Dreadleather Jerkin -- 194726
+	recipe = AddRecipe(194726, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128884, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
+	recipe:AddVendor(93521)
+
+	-- Dreadleather Bindings -- 194727
+	recipe = AddRecipe(194727, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128891, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
+	recipe:AddQuest(43943)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Dreadleather Belt -- 194728
+	recipe = AddRecipe(194728, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128890, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
+	recipe:AddVendor(107760)
+
+	-- Dreadleather Shoulderguard -- 194729
+	recipe = AddRecipe(194729, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128889, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.PVP)
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddCustom("RATED_PVP")
+
+	-- Dreadleather Pants -- 194730
+	recipe = AddRecipe(194730, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128888, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
+	recipe:AddRepVendor(FAC.DREAMWEAVERS, REP.EXALTED, 106901)
+
+	-- Dreadleather Mask -- 194731
+	recipe = AddRecipe(194731, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128887, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HEAD")
+	recipe:AddRepVendor(FAC.DREAMWEAVERS, REP.EXALTED, 106901)
+
+	-- Dreadleather Gloves -- 194732
+	recipe = AddRecipe(194732, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128886, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
+	recipe:AddMobDrop(98208)
+	recipe:AddCustom("HEROIC")
+
+	-- Dreadleather Footpads -- 194733
+	recipe = AddRecipe(194733, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128885, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_FEET")
+	recipe:AddRepVendor(FAC.DREAMWEAVERS, REP.EXALTED, 106901)
+
+	-- Dreadleather Jerkin -- 194734
+	recipe = AddRecipe(194734, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128884, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
+	recipe:AddCustom("WATERLOGGED_CACHE", "MYTHIC")
+
+	-- Battlebound Armbands -- 194735
+	recipe = AddRecipe(194735, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Girdle -- 194736
+	recipe = AddRecipe(194736, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Spaulders -- 194737
+	recipe = AddRecipe(194737, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Leggings -- 194738
+	recipe = AddRecipe(194738, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Warhelm -- 194739
+	recipe = AddRecipe(194739, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Grips -- 194740
+	recipe = AddRecipe(194740, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Treads -- 194741
+	recipe = AddRecipe(194741, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Hauberk -- 194742
+	recipe = AddRecipe(194742, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Armbands -- 194743
+	recipe = AddRecipe(194743, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Girdle -- 194744
+	recipe = AddRecipe(194744, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Spaulders -- 194745
+	recipe = AddRecipe(194745, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Leggings -- 194746
+	recipe = AddRecipe(194746, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Warhelm -- 194747
+	recipe = AddRecipe(194747, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Grips -- 194748
+	recipe = AddRecipe(194748, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Treads -- 194749
+	recipe = AddRecipe(194749, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Hauberk -- 194750
+	recipe = AddRecipe(194750, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Armbands -- 194751
+	recipe = AddRecipe(194751, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Leggings -- 194752
+	recipe = AddRecipe(194752, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Warhelm -- 194753
+	recipe = AddRecipe(194753, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Grips -- 194754
+	recipe = AddRecipe(194754, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Treads -- 194755
+	recipe = AddRecipe(194755, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Girdle -- 194756
+	recipe = AddRecipe(194756, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Spaulders -- 194757
+	recipe = AddRecipe(194757, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battlebound Hauberk -- 194758
+	recipe = AddRecipe(194758, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Armbands -- 194759
+	recipe = AddRecipe(194759, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Girdle -- 194760
+	recipe = AddRecipe(194760, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Spaulders -- 194761
+	recipe = AddRecipe(194761, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Leggings -- 194762
+	recipe = AddRecipe(194762, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Warhelm -- 194763
+	recipe = AddRecipe(194763, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Grips -- 194764
+	recipe = AddRecipe(194764, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Treads -- 194765
+	recipe = AddRecipe(194765, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Hauberk -- 194766
+	recipe = AddRecipe(194766, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Armbands -- 194767
+	recipe = AddRecipe(194767, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Girdle -- 194768
+	recipe = AddRecipe(194768, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Spaulders -- 194769
+	recipe = AddRecipe(194769, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Leggings -- 194770
+	recipe = AddRecipe(194770, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Warhelm -- 194771
+	recipe = AddRecipe(194771, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Grips -- 194772
+	recipe = AddRecipe(194772, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Treads -- 194773
+	recipe = AddRecipe(194773, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Hauberk -- 194774
+	recipe = AddRecipe(194774, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flaming Hoop -- 194775
+	recipe = AddRecipe(194775, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Leather Pet Bed -- 194776
+	recipe = AddRecipe(194776, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Leather Pet Leash -- 194778
+	recipe = AddRecipe(194778, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Leather Love Seat -- 194779
+	recipe = AddRecipe(194779, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Elderhorn Riding Harness -- 194780
+	recipe = AddRecipe(194780, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Dreadleather Mask -- 194784
+	recipe = AddRecipe(194784, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128887, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HEAD")
+	recipe:AddVendor(98969)
+
+	-- Dreadleather Footpads -- 194785
+	recipe = AddRecipe(194785, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128885, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_FEET")
+	recipe:AddVendor(98969)
+
+	-- Dreadleather Pants -- 194786
+	recipe = AddRecipe(194786, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128888, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
+	recipe:AddVendor(98969)
+
+	-- Dreadleather Bindings -- 194787
+	recipe = AddRecipe(194787, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128891, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
+	recipe:AddQuest(40214)
+
+	-- Dreadleather Belt -- 194788
+	recipe = AddRecipe(194788, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128890, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
+	recipe:AddVendor(98969)
+
+	-- Dreadleather Shoulderguard -- 194789
+	recipe = AddRecipe(194789, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128889, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddVendor(98969)
+
+	-- Dreadleather Gloves -- 194790
+	recipe = AddRecipe(194790, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128886, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
+	recipe:AddVendor(98969)
+
+	-- Dreadleather Jerkin -- 194791
+	recipe = AddRecipe(194791, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128884, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
+	recipe:AddVendor(98969)
+
+	-- Gravenscale Leggings -- 194792
+	recipe = AddRecipe(194792, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Treads -- 194793
+	recipe = AddRecipe(194793, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Warhelm -- 194794
+	recipe = AddRecipe(194794, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Hauberk -- 194795
+	recipe = AddRecipe(194795, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Armbands -- 194796
+	recipe = AddRecipe(194796, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Girdle -- 194797
+	recipe = AddRecipe(194797, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Spaulders -- 194798
+	recipe = AddRecipe(194798, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gravenscale Grips -- 194799
+	recipe = AddRecipe(194799, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Stonehide Leather Barding -- 196648
+	recipe = AddRecipe(196648, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Light Scale Gloves -- 226105
+	recipe = AddRecipe(226105, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Light Scale Bracers -- 226106
+	recipe = AddRecipe(226106, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Light Scale Belt -- 226107
+	recipe = AddRecipe(226107, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Light Scale Jerkin -- 226108
+	recipe = AddRecipe(226108, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Light Scale Boots -- 226109
+	recipe = AddRecipe(226109, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Shamanic Treads -- 226110
+	recipe = AddRecipe(226110, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Light Scale Pants -- 226111
+	recipe = AddRecipe(226111, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chain Hauberk -- 226112
+	recipe = AddRecipe(226112, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chain Boots -- 226113
+	recipe = AddRecipe(226113, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Crackling Scale Breastplate -- 226114
+	recipe = AddRecipe(226114, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blue Chain Leggings -- 226115
+	recipe = AddRecipe(226115, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chain Bracers -- 226116
+	recipe = AddRecipe(226116, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chain Leggings -- 226117
+	recipe = AddRecipe(226117, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chain Gauntlets -- 226118
+	recipe = AddRecipe(226118, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chain Belt -- 226119
+	recipe = AddRecipe(226119, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Epaulets -- 226120
+	recipe = AddRecipe(226120, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Chain Pauldrons -- 226121
+	recipe = AddRecipe(226121, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Element Grips -- 226122
+	recipe = AddRecipe(226122, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Gauntlets -- 226123
+	recipe = AddRecipe(226123, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Wraps -- 226124
+	recipe = AddRecipe(226124, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Britches -- 226125
+	recipe = AddRecipe(226125, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Pants -- 226126
+	recipe = AddRecipe(226126, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Cinch -- 226127
+	recipe = AddRecipe(226127, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Shirt -- 226128
+	recipe = AddRecipe(226128, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Pauldrons -- 226129
+	recipe = AddRecipe(226129, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Jerkin -- 226130
+	recipe = AddRecipe(226130, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Gloves -- 226131
+	recipe = AddRecipe(226131, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Belt -- 226132
+	recipe = AddRecipe(226132, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Wraps -- 226133
+	recipe = AddRecipe(226133, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Boots -- 226134
+	recipe = AddRecipe(226134, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Heavy Scale Hood -- 226135
+	recipe = AddRecipe(226135, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Circlet -- 226136
+	recipe = AddRecipe(226136, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spritescale Boots -- 226137
+	recipe = AddRecipe(226137, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
 	self.InitializeRecipes = nil
 end
