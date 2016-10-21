@@ -8135,8 +8135,8 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(128902, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.INSTANCE)
 	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
-	recipe:AddMobDrop(98208)
-	recipe:AddCustom("HEROIC")
+	recipe:AddMobDrop(104218)
+	recipe:AddCustom("MYTHIC")
 
 	-- Gravenscale Treads -- 194773
 	recipe = AddRecipe(194773, V.LEGION, Q.COMMON)
