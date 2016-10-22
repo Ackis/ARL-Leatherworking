@@ -8013,7 +8013,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetCraftedItem(128893, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_FEET")
-	recipe:AddMobDrop(107704)
+	recipe:AddMobDrop(91007)
 
 	-- Battlebound Girdle -- 194756
 	recipe = AddRecipe(194756, V.LEGION, Q.COMMON)
