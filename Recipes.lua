@@ -7813,6 +7813,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(128891, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(137892, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
+	recipe:AddQuest(43943)
 	recipe:AddCustom("WITHERED_ARMY")
 
 	-- Dreadleather Belt -- 194728

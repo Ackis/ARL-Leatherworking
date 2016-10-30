@@ -70,7 +70,6 @@ function module:InitializeQuests()
 	AddQuest(41643,	Z.SURAMAR,			36.8,	46.6,	"Neutral")
 	AddQuest(41644,	Z.DALARAN_BROKENISLES,		33.4,	48.0,	"Neutral")
 	AddQuest(41889,	Z.DALARAN_BROKENISLES,		35.2,	29.2,	"Neutral")
-	AddQuest(43943,	Z.SURAMAR,			0.0,	0.0,	"Neutral") --Needs updating
 
 	self.InitializeQuests = nil
 end
