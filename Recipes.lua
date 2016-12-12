@@ -8536,5 +8536,29 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_FEET")
 	recipe:AddTrainer(1385, 1632, 3007, 3069, 3365, 3549, 3605, 3967, 4212, 4588, 5127, 5564, 5784, 8153, 11097, 11098, 16278, 16688, 16728, 17442, 18754, 18771, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 47384, 47396, 47400, 47418, 47419, 47420, 47421, 47431, 48619, 49885, 53436, 57620, 65043, 65121, 66354, 85920, 86032)
 
+	-- Drums of the Mountain -- 230936
+	recipe = AddRecipe(230936, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetRecipeItem(142407, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142406, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CREATED_ITEM")
+	recipe:AddVendor(93521)
+
+	-- Drums of the Mountain -- 230954
+	recipe = AddRecipe(230954, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 740, 760)
+	recipe:SetRecipeItem(142408, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142406, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CREATED_ITEM")
+	recipe:AddRepVendor(FAC.HIGHMOUNTAIN_TRIBE, REP.REVERED, 106902)
+
+	-- Drums of the Mountain -- 230955
+	recipe = AddRecipe(230955, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 760, 780)
+	recipe:SetRecipeItem(142409, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142406, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_CREATED_ITEM")
+	recipe:AddRepVendor(FAC.HIGHMOUNTAIN_TRIBE, REP.EXALTED, 106902)
+
 	self.InitializeRecipes = nil
 end
