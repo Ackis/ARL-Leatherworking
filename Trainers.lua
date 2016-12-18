@@ -73,6 +73,10 @@ function module:InitializeTrainers()
 	AddTrainer(66354, "Master Cannon", 		Z.KUN_LAI_SUMMIT, 		50.6, 42.0, "Neutral")
 	AddTrainer(85920, "Jistun Sharpfeather",	Z.STORMSHIELD, 			52.5, 42.1, "Alliance")
 	AddTrainer(86032, "Burga Stronghide", 		Z.WARSPEAR, 			50.2, 28.8, "Horde")
+	AddTrainer(93522, "Diane Cannings",		Z.DALARAN_BROKENISLES,		35.6, 29.8, "Neutral")
+	AddTrainer(93523, "Namha Moonwater",		Z.DALARAN_BROKENISLES,		35.4, 29.6, "Neutral")
+	AddTrainer(98931, "Thanid Glowergold",		Z.DALARAN_BROKENISLES,		34.6, 28.6, "Neutral")
+	AddTrainer(98950, "Namha Moonwater",		Z.DEADWIND_PASS,		43.0, 68.4, "Neutral")
 
 	self.InitializeTrainers = nil
 end
