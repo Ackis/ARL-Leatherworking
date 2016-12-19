@@ -7624,8 +7624,10 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(194704, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetCraftedItem(128882, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(137869, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
 	recipe:AddQuest(40192)
+	recipe:AddVendor(107760)
 
 	-- Warhide Shoulderguard -- 194705
 	recipe = AddRecipe(194705, V.LEGION, Q.COMMON)
@@ -7936,7 +7938,9 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(194744, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetCraftedItem(128898, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(137901, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
+	recipe:AddVendor(107760)
 	recipe:AddQuest(40194)
 
 	-- Battlebound Spaulders -- 194745
