@@ -39,19 +39,19 @@ function module:InitializeQuests()
 	AddQuest(40181,	Z.DALARAN_BROKENISLES,		34.6,	28.4,	"Neutral")
 	AddQuest(40182,	Z.DALARAN_BROKENISLES,		34.6,	28.4,	"Neutral")
 	AddQuest(40183,	Z.DALARAN_BROKENISLES,		35.2,	29.2,	"Neutral")
-	AddQuest(40185,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
-	AddQuest(40186,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
+	AddQuest(40185,	Z.THUNDER_TOTEM,		36.8,	78.8,	"Neutral")
+	AddQuest(40186,	Z.THUNDER_TOTEM,		36.8,	78.8,	"Neutral")
 	AddQuest(40188,	Z.AZSUNA,			47.4,	44.0,	"Neutral")
 	AddQuest(40189,	Z.AZSUNA,			47.4,	44.0,	"Neutral")
-	AddQuest(40191,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
-	AddQuest(40192,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
+	AddQuest(40191,	Z.THUNDER_TOTEM,		36.8,	78.8,	"Neutral")
+	AddQuest(40192,	Z.THUNDER_TOTEM,		36.8,	78.8,	"Neutral")
 	AddQuest(40194,	Z.AZSUNA,			47.4,	44.0,	"Neutral")
 	AddQuest(40198,	Z.DALARAN_BROKENISLES,		35.4,	29.8,	"Neutral")
 	AddQuest(40199,	Z.DALARAN_BROKENISLES,		34.6,	28.4,	"Neutral")
 	AddQuest(40201,	Z.DALARAN_BROKENISLES,		35.2,	29.2,	"Neutral")
-	AddQuest(40203,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
-	AddQuest(40204,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
-	AddQuest(40205,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
+	AddQuest(40203,	Z.THUNDER_TOTEM,		36.8,	78.8,	"Neutral")
+	AddQuest(40204, Z.THUNDER_TOTEM,		36.8,	78.8,	"Neutral")
+	AddQuest(40205,	Z.THUNDER_TOTEM,		36.8,	78.8,	"Neutral")
 	AddQuest(40207,	Z.AZSUNA,			47.4,	44.0,	"Neutral")
 	AddQuest(40208,	Z.AZSUNA,			47.4,	44.0,	"Neutral")
 	AddQuest(40209,	Z.AZSUNA,			47.4,	44.0,	"Neutral")
