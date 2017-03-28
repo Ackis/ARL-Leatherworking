@@ -8617,5 +8617,19 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_CREATED_ITEM")
 	recipe:AddRepVendor(FAC.HIGHMOUNTAIN_TRIBE, REP.EXALTED, 106902)
 
+	-- The Sentinel's Eternal Refuge -- 239413
+	recipe = AddRecipe(239413, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(800, 800, 800, 805, 810)
+	recipe:SetCraftedItem(146669, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_FEET")
+	recipe:AddTrainer(93522, 93523, 98931)
+
+	-- Vigilance Perch -- 239414
+	recipe = AddRecipe(239414, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(800, 800, 800, 805, 810)
+	recipe:SetCraftedItem(146668, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
+	recipe:AddTrainer(93522, 93523, 98931)
+
 	self.InitializeRecipes = nil
 end
