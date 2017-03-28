@@ -77,6 +77,7 @@ function module:InitializeTrainers()
 	AddTrainer(93523, "Namha Moonwater",		Z.DALARAN_BROKENISLES,		35.4, 29.6, "Neutral")
 	AddTrainer(98931, "Thanid Glowergold",		Z.DALARAN_BROKENISLES,		34.6, 28.6, "Neutral")
 	AddTrainer(98950, "Namha Moonwater",		Z.DEADWIND_PASS,		43.0, 68.4, "Neutral")
+	AddTrainer(98964, "Celea",			Z.AZSUNA,			47.5, 44.2, "Neutral")
 
 	self.InitializeTrainers = nil
 end
