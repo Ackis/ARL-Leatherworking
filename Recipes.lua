@@ -8631,5 +8631,53 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
 	recipe:AddTrainer(93522, 93523, 98931)
 
+	-- Fiendish Shoulderguards -- 247800
+	recipe = AddRecipe(247800, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151740, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151577, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddQuest(48078)
+
+	-- Fiendish Shoulderguards -- 247801
+	recipe = AddRecipe(247801, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151741, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151577, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.REVERED, 127120)
+
+	-- Fiendish Shoulderguards -- 247802
+	recipe = AddRecipe(247802, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151742, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151577, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddMobDrop(122367)
+
+	-- Fiendish Spaulders -- 247803
+	recipe = AddRecipe(247803, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151743, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151578, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddQuest(48078)
+
+	-- Fiendish Spaulders -- 247804
+	recipe = AddRecipe(247804, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151744, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151578, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.REVERED, 127120)
+
+	-- Fiendish Spaulders -- 247805
+	recipe = AddRecipe(247805, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151745, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151578, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
+	recipe:AddMobDrop(122367)
+
 	self.InitializeRecipes = nil
 end

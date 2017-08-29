@@ -60,6 +60,7 @@ function module:InitializeMobDrops()
 	AddMob(22148,	L["Gordunni Head-Splitter"],		Z.TEROKKAR_FOREST,		22.5, 8.3)
 	AddMob(23022,	L["Gordunni Soulreaper"],		Z.TEROKKAR_FOREST,		22.9, 8.8)
 	AddMob(28132,	L["Don Carlos"],			Z.OLD_HILLSBRAD_FOOTHILLS,	0, 0)
+	AddMob(122367,	BN.ANTORAN_HIGH_COMMAND,		Z.ANTORUS__THE_BURNING_THRONE)
 
 	self.InitializeMobDrops = nil
 end
