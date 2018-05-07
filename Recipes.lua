@@ -8622,14 +8622,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(800, 800, 800, 805, 810)
 	recipe:SetCraftedItem(146669, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_FEET")
-	recipe:AddTrainer(93522, 93523, 98931)
+	recipe:AddTrainer(93522, 93523, 98931, 98964)
 
 	-- Vigilance Perch -- 239414
 	recipe = AddRecipe(239414, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(800, 800, 800, 805, 810)
 	recipe:SetCraftedItem(146668, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
-	recipe:AddTrainer(93522, 93523, 98931)
+	recipe:AddTrainer(93522, 93523, 98931, 98964)
 
 	-- Fiendish Shoulderguards -- 247800
 	recipe = AddRecipe(247800, V.LEGION, Q.COMMON)
