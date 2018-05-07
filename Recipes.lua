@@ -3085,7 +3085,7 @@ function module:InitializeRecipes()
 
 	-- Iceborne Chestguard -- 50938
 	recipe = AddRecipe(50938, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38408, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3093,7 +3093,7 @@ function module:InitializeRecipes()
 
 	-- Iceborne Leggings -- 50939
 	recipe = AddRecipe(50939, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38410, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -3109,7 +3109,7 @@ function module:InitializeRecipes()
 
 	-- Iceborne Gloves -- 50941
 	recipe = AddRecipe(50941, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38409, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -3117,7 +3117,7 @@ function module:InitializeRecipes()
 
 	-- Iceborne Boots -- 50942
 	recipe = AddRecipe(50942, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38407, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_FEET")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -3133,7 +3133,7 @@ function module:InitializeRecipes()
 
 	-- Arctic Chestpiece -- 50944
 	recipe = AddRecipe(50944, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38400, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
 	recipe:AddFilters(F.DPS)
@@ -3141,7 +3141,7 @@ function module:InitializeRecipes()
 
 	-- Arctic Leggings -- 50945
 	recipe = AddRecipe(50945, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38401, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3157,7 +3157,7 @@ function module:InitializeRecipes()
 
 	-- Arctic Gloves -- 50947
 	recipe = AddRecipe(50947, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38403, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3165,7 +3165,7 @@ function module:InitializeRecipes()
 
 	-- Arctic Boots -- 50948
 	recipe = AddRecipe(50948, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38404, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_FEET")
 	recipe:AddFilters(F.DPS)
@@ -3181,7 +3181,7 @@ function module:InitializeRecipes()
 
 	-- Frostscale Chestguard -- 50950
 	recipe = AddRecipe(50950, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38414, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3189,7 +3189,7 @@ function module:InitializeRecipes()
 
 	-- Frostscale Leggings -- 50951
 	recipe = AddRecipe(50951, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38416, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3197,7 +3197,7 @@ function module:InitializeRecipes()
 
 	-- Frostscale Shoulders -- 50952
 	recipe = AddRecipe(50952, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38424, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3221,7 +3221,7 @@ function module:InitializeRecipes()
 
 	-- Frostscale Belt -- 50955
 	recipe = AddRecipe(50955, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38412, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3229,7 +3229,7 @@ function module:InitializeRecipes()
 
 	-- Nerubian Chestguard -- 50956
 	recipe = AddRecipe(50956, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38420, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_CHEST")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3237,7 +3237,7 @@ function module:InitializeRecipes()
 
 	-- Nerubian Legguards -- 50957
 	recipe = AddRecipe(50957, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38422, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_LEGS")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3253,7 +3253,7 @@ function module:InitializeRecipes()
 
 	-- Nerubian Gloves -- 50959
 	recipe = AddRecipe(50959, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 385, 395, 405)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(38421, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_HANDS")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3269,7 +3269,7 @@ function module:InitializeRecipes()
 
 	-- Nerubian Belt -- 50961
 	recipe = AddRecipe(50961, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 390, 400, 410)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(38418, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_WAIST")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3277,7 +3277,7 @@ function module:InitializeRecipes()
 
 	-- Borean Armor Kit -- 50962
 	recipe = AddRecipe(50962, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 375, 380, 385)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(38375, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddTrainer(3007, 3069, 3365, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26961, 26996, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -4131,7 +4131,7 @@ function module:InitializeRecipes()
 
 	-- Borean Leather -- 64661
 	recipe = AddRecipe(64661, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 350, 362, 375)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(33568, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
 	recipe:AddTrainer(3007, 3069, 3365, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26961, 26996, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -4404,7 +4404,7 @@ function module:InitializeRecipes()
 	-- ----------------------------------------------------------------------------
 	-- Savage Armor Kit -- 78379
 	recipe = AddRecipe(78379, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 450, 452, 455)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(56477, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_ITEM_ENHANCEMENT")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -4433,7 +4433,7 @@ function module:InitializeRecipes()
 
 	-- Darkbrand Bracers -- 78398
 	recipe = AddRecipe(78398, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 460, 465, 470)
+	recipe:SetSkillLevels(375, 375, 385, 390, 395)
 	recipe:SetCraftedItem(56483, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_WRIST")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -4469,7 +4469,7 @@ function module:InitializeRecipes()
 
 	-- Tsunami Boots -- 78410
 	recipe = AddRecipe(78410, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 460, 465, 470)
+	recipe:SetSkillLevels(375, 375, 385, 390, 395)
 	recipe:SetCraftedItem(56494, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_FEET")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -4937,7 +4937,7 @@ function module:InitializeRecipes()
 
 	-- Savage Leather -- 84950
 	recipe = AddRecipe(84950, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 435, 440, 445)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(52976, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26911, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -7151,14 +7151,14 @@ function module:InitializeRecipes()
 	-- ----------------------------------------------------------------------------
 	-- Blackened Dragonscale -- 163216
 	recipe = AddRecipe(163216, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 435, 440, 445)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(52979, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
 
 	-- Deepsea Scale -- 163218
 	recipe = AddRecipe(163218, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 435, 440, 445)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(52982, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -7172,21 +7172,21 @@ function module:InitializeRecipes()
 
 	-- Icy Dragonscale -- 163222
 	recipe = AddRecipe(163222, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 360, 365, 370)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(38557, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
 
 	-- Nerubian Chitin -- 163223
 	recipe = AddRecipe(163223, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 360, 365, 370)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(38558, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
 
 	-- Jormungar Scale -- 163224
 	recipe = AddRecipe(163224, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 360, 365, 370)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(38561, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_MATERIALS")
 	recipe:AddTrainer(3007, 3069, 3365, 3967, 4212, 4588, 5127, 5564, 16688, 17442, 18754, 19187, 21087, 26998, 28700, 29507, 29508, 29509, 33581, 33612, 33635, 33681, 53436, 65121, 66354, 85920, 86032, 93522, 93523, 98931, 98964)
@@ -8678,6 +8678,8 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(151578, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("LEATHERWORKING_SHOULDER")
 	recipe:AddMobDrop(122367)
+
+
 
 	self.InitializeRecipes = nil
 end
